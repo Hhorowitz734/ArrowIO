@@ -15,6 +15,6 @@ pub fn get_input(player_pos: &Vec2) -> PlayerInput {
 
     PlayerInput {
         direction,
-        moving: is_mouse_button_down(MouseButton::Left),
+        moving: is_key_pressed(KeyCode::Space),
     }
 }
